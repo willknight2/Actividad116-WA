@@ -59,3 +59,50 @@ a{
 .navbar__link{
     font-size: 25px;
 }
+
+/*Estilos de perfiles de mascotas*/
+.navbar__perfil{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.navbar__perfil > ul{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar__perfil > ul > li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.navbar__perfil > ul > li > a{
+    font-size: 1.5rem;
+}
+
+.perfil{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.perfil__info > ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.perfil__info > ul > li{
+    padding-bottom: 6px;
+}
+
+.perfil__foto{
+    border-radius: 10px;
+}
+
+
+
